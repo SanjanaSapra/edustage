@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/font.css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <div class="l-box">
+        <div class="loader"></div>
+    </div>
+
+    <header class="position-relative w-100">
+        <nav class="navbar navbar-expand-lg p-3">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png.webp" alt=""></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-semibold font-14 rubik t-yellow" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold font-14 rubik t-blue" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-semibold font-14 rubik t-blue dropdown-toggle" href="page.html"
+                             data-bs-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="cource.html" class="dropdown-item fw-semibold font-14 rubik t-blue">Cources</a></li>
+                            </ul> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold font-14 rubik t-blue" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold font-14 rubik t-blue" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass text-black ms-5"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner section  -->
+
+    <div class="banner">
+        <div class="banner-content text-center">
+            <h3 class="font-20 roboto t-blue">BEST ONLINE EDUCATION SERVICE IN THE WORLD</h3>
+            <h1 class="font-48 rubik t-blue mt-4 mb-4">ONE STEP AHEAD THIS SEASON</h1>
+            <div class="h-stack">
+                <button class="btn-1 rounded-2 fw-semibold">LEARN MORE</button>
+                <button class="btn-2 rounded-2 ms-3 fw-semibold">SEE COURCE</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog section  -->
+
+    <section class="blog padding-80">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="blog-col">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="blog-main">
+                                    <div class="blog-detail text-start text-md-end">
+                                        <h4 class="font-14 roboto fw-normal t-blue">Food,<span class="font-14 roboto fw-normal t-yellow">Technology</span></h4>
+                                        <p class="font-14 roboto fw-normal t-blue">Politics, Lifestyle</p>
+                                    </div>
+                                    <div class="blog-detail2">
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">Mark wiens</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-user t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">12 Dec, 2017</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-calendar t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">1.2M Views</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-eye t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">06 Comments</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-message t-blue"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-9">
+                                <div class="blog-img">
+                                    <img class="w-100" src="img/blog-1.jpg" alt="">
+                                </div>
+                                <div class="blog-content mt-4">
+                                    <h2 class="t-blue font-24 rubik fw-bold">Astronomy Binoculars A Great Alternative</h2>
+                                    <p class="font-16 fw-normal roboto t-gray mt-2">MCSE boot camps have its supporters and its detractors. Some people do <br>
+                                        not understand why you should have to spend money on boot camp when <br>
+                                        you can get the MCSE study materials yourself at a fraction.</p>
+                                    <div class="blog-button">
+                                        <button class="t-blue border-0 fw-semibold roboto mt-2">view more</button>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-col mt-5">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="blog-main">
+                                    <div class="blog-detail text-start text-md-end">
+                                        <h4 class="font-14 roboto fw-normal t-blue">Food,<span class="font-14 roboto fw-normal t-yellow">Technology</span></h4>
+                                        <p class="font-14 roboto fw-normal t-blue">Politics, Lifestyle</p>
+                                    </div>
+                                    <div class="blog-detail2">
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">Mark wiens</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-user t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">12 Dec, 2017</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-calendar t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">1.2M Views</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-eye t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">06 Comments</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-message t-blue"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-9">
+                                <div class="blog-img">
+                                    <img class="w-100" src="img/blog-1.jpg" alt="">
+                                </div>
+                                <div class="blog-content mt-4">
+                                    <h2 class="t-blue font-24 rubik fw-bold">Astronomy Binoculars A Great Alternative</h2>
+                                    <p class="font-16 fw-normal roboto t-gray mt-2">MCSE boot camps have its supporters and its detractors. Some people do <br>
+                                        not understand why you should have to spend money on boot camp when <br>
+                                        you can get the MCSE study materials yourself at a fraction.</p>
+                                    <div class="blog-button">
+                                        <button class="t-blue border-0 fw-semibold roboto mt-2">view more</button>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-col mt-5">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="blog-main">
+                                    <div class="blog-detail text-start text-md-end">
+                                        <h4 class="font-14 roboto fw-normal t-blue">Food,<span class="font-14 roboto fw-normal t-yellow">Technology</span></h4>
+                                        <p class="font-14 roboto fw-normal t-blue">Politics, Lifestyle</p>
+                                    </div>
+                                    <div class="blog-detail2">
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">Mark wiens</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-user t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">12 Dec, 2017</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-calendar t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">1.2M Views</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-eye t-blue"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start justify-content-xxl-end justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-start mt-2">
+                                            <div class="b-name">
+                                                <p class="font-14 roboto fw-normal t-gray m-0 me-3">06 Comments</p>
+                                            </div>
+                                            <div class="b-icon">
+                                                <i class="fa-regular fa-message t-blue"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-9">
+                                <div class="blog-img">
+                                    <img class="w-100" src="img/blog-1.jpg" alt="">
+                                </div>
+                                <div class="blog-content mt-4">
+                                    <h2 class="t-blue font-24 rubik fw-bold">Astronomy Binoculars A Great Alternative</h2>
+                                    <p class="font-16 fw-normal roboto t-gray mt-2">MCSE boot camps have its supporters and its detractors. Some people do <br>
+                                        not understand why you should have to spend money on boot camp when <br>
+                                        you can get the MCSE study materials yourself at a fraction.</p>
+                                    <div class="blog-button">
+                                        <button class="t-blue border-0 fw-semibold roboto mt-2">view more</button>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                    <div class="blog-box">
+                        <div class="input-group mb-3 p-4 border-bottom">
+                            <input type="text" class="form-control" placeholder="search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </div>
+                        <div class="blog2-main">
+                            <div class="blog2-img text-center p-3">
+                                <img src="img/author.png.webp" alt="">
+                            </div>
+                            <div class="blog1-content text-center">
+                                <h4 class="font-18 t-blue rubik fw-semibold">Charlie Barber</h4>
+                                <h3 class="font-18 t-gray rubik fw-normal">Senior blog writer</h3>
+                                <div class="blog2-icon">
+                                    <div class="d-flex justify-content-center pt-2">
+                                        <i class="fa-brands fa-facebook-f t-blue font-14"></i>
+                                        <i class="fa-brands fa-twitter ms-3 t-blue font-14"></i>
+                                        <i class="fa-brands fa-github-alt ms-3 t-blue font-14"></i>
+                                        <i class="fa-brands fa-linkedin-in ms-3 t-blue font-14"></i>
+                                    </div>
+                                </div>
+                                <p class="font-16 t-gray fw-normal pt-2 pb-4 border-bottom">Boot camps have its supporters andit <br> sdetractors. Some people do not <br> understand why you should have to <br> spend money on boot camp when you <br> can get. Boot camps have itssuppor ters <br> andits detractors.</p>
+                            </div>
+                            <div class="blog2-content text-center">
+                                <div class="blog-title pt-3">
+                                    <button class="text-white rubik font-18 border-0 fw-semibold text-white">Popular Posts</button>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <div class="blog2-post pt-3">
+                                        <div class="d-flex align-items-center pt-3">
+                                            <div class="post-img">
+                                                <img src="img/post1.jpg.webp" alt="">
+                                            </div>
+                                            <div class="post-content text-start ps-3">
+                                                <h5 class="font-14 rubik t-blue fw-normal">Space The Final Frontier</h5>
+                                                <h6 class="font-12 roboto t-gray fw-light">02 Hours ago</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center pt-3">
+                                            <div class="post-img">
+                                                <img src="img/post2.jpg.webp" alt="">
+                                            </div>
+                                            <div class="post-content text-start ps-3">
+                                                <h5 class="font-14 rubik t-blue fw-normal">The Amazing Hubble</h5>
+                                                <h6 class="font-12 roboto t-gray fw-light">02 Hours ago</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center pt-3">
+                                            <div class="post-img">
+                                                <img src="img/post3.jpg.webp" alt="">
+                                            </div>
+                                            <div class="post-content text-start ps-3">
+                                                <h5 class="font-14 rubik t-blue fw-normal">Astronomy Or Astrology</h5>
+                                                <h6 class="font-12 roboto t-gray fw-light">02 Hours ago</h6>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center pt-3 pb-4">
+                                            <div class="post-img">
+                                                <img src="img/post4.jpg.webp" alt="">
+                                            </div>
+                                            <div class="post-content text-start ps-3">
+                                                <h5 class="font-14 rubik t-blue fw-normal">Asteroids telescope</h5>
+                                                <h6 class="font-12 roboto t-gray fw-light">02 Hours ago</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog3-content text-center border-top">
+                                <div class="blog-title pt-4">
+                                    <button class="text-white rubik font-18 border-0 fw-semibold text-white">Post Categories</button>
+                                </div>
+                                <div class="blog3-catagories">
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Technology</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">37</p>
+                                    </div>
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Lifestyle</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">24</p>
+                                    </div>
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Fashion</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">59</p>
+                                    </div>
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Art</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">29</p>
+                                    </div>
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Food</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">15</p>
+                                    </div>
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Adventure</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">09</p>
+                                    </div>
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Architecture</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">44</p>
+                                    </div>
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Adventure</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">09</p>
+                                    </div>
+                                    <div class="d-flex blog-hover justify-content-between px-5 pt-4">
+                                        <h3 class="font-14 roboto t-gray fw-normal">Art</h3>
+                                        <p class="font-14 roboto t-gray fw-normal">44</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section  -->
+
+    <footer class="footer padding-80 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Top Products</h2>
+                    </div>
+                    <ul class="p-0">
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Managed Website</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Manage Reputation</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Power Tools</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Marketing Service</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Quick Links</h2>
+                    </div>
+                    <ul class="p-0">
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Managed Website</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Manage Reputation</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Power Tools</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Marketing Service</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Features</h2>
+                    </div>
+                    <ul class="p-0">
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Managed Website</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Manage Reputation</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Power Tools</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Marketing Service</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Resources</h2>
+                    </div>
+                    <ul class="p-0">
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Managed Website</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Manage Reputation</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Power Tools</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Marketing Service</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Newsletter</h2>
+                    </div>
+                    <p class="t-gray font-14">You can trust us. we only send promo offers,</p>
+                    <div class="input-box">
+                        <input class="ps-2" type="text" placeholder="Your Email Address">
+                        <button class="f-button fw-semibold font-14">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between pt-5 flex-wrap w-100">
+                <h4 class="font-16 roboto text-white fw-light">Copyright ©2023 All rights reserved | This template is made with  by Colorlib</h4>
+                <div class="hstack">
+                    <div class="f-icon-box text-center ms-1">
+                        <a href="#" class=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="f-icon-box text-center ms-1">
+                        <a href="#" class=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="f-icon-box text-center ms-1">
+                        <a href="#" class=""><i class="fa-brands fa-dribbble"></i></a>
+                    </div>
+                    <div class="f-icon-box text-center ms-1">
+                        <a href="#" class=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquerymin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 200) { 
+                $("header").addClass("bg-white position-fixed top-0 w-100 shadow")
+            }
+            else {
+                $("header").removeClass("bg-white shadow top-0")
+            }
+        }) ;
+    </script>
+    <script>
+     $(window).load(function () {
+            $(".l-box").fadeOut(2500);
+        });
+    </script>
+
+    
+</body>
+</html>

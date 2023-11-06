@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edustage</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/font.css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <div class="l-box">
+    <div class="loader"></div>
+    </div>
+
+    <header class="position-relative w-100">
+            <nav class="navbar navbar-expand-lg p-3">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#"><img src="img/logo.png.webp" alt=""></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-semibold font-14 rubik t-yellow" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold font-14 rubik t-blue" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-semibold font-14 rubik t-blue dropdown-toggle" href="page.html"
+                                 data-bs-toggle="dropdown">Pages</a>
+                                <ul class="dropdown-menu border-0">
+                                    <li><a href="cource.html" class="dropdown-item fw-semibold font-14 rubik t-blue">Cources</a></li>
+                                </ul> 
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold font-14 rubik t-blue" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold font-14 rubik t-blue" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <a href="#"><i class="fa-solid fa-magnifying-glass text-black ms-5"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <!-- banner section  -->
+
+    <div class="banner">
+        <div class="banner-content text-center">
+            <h3 class="font-20 roboto t-blue">BEST ONLINE EDUCATION SERVICE IN THE WORLD</h3>
+            <h1 class="font-48 rubik t-blue mt-4 mb-4">ONE STEP AHEAD THIS SEASON</h1>
+            <div class="h-stack">
+                <button class="btn-1 rounded-2 fw-semibold">LEARN MORE</button>
+                <button class="btn-2 rounded-2 ms-3 fw-semibold">SEE COURCE</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section  -->
+
+    <section class="about padding-80">
+        <div class="container">
+            <div class="common-heading text-center">
+                <h1 class="t-blue font-36 rubik fw-semibold">Awesome Feature</h1>
+                <p class="roboto font-16 t-gray">Replenish man have thing gathering lights yielding shall you</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="about-box p-4">
+                        <div class="about-content">
+                            <div class="a-img">
+                                <img src="img/mortarboard.png" alt="">
+                            </div>
+                            <div class="a-content">
+                                <h3 class="font-20 t-blue pt-3 fw-bold">Scholarship Facility</h3>
+                                <p class="font-16 t-gray">One make creepeth, man bearing theira <br> firmament won't
+                                    great heaven</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="about-box p-4">
+                        <div class="about-content">
+                            <div class="a-img">
+                                <img src="img/global-education.png" alt="">
+                            </div>
+                            <div class="a-content">
+                                <h3 class="font-20 t-blue pt-3 fw-bold">Global Certification</h3>
+                                <p class="font-16 t-gray">One make creepeth, man bearing theira <br> firmament won't
+                                    great heaven</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-5">
+                    <div class="about-box p-4">
+                        <div class="about-content">
+                            <div class="a-img">
+                                <img src="img/open-book.png" alt="">
+                            </div>
+                            <div class="a-content">
+                                <h3 class="font-20 t-blue pt-3 fw-bold">Sell Online Course</h3>
+                                <p class="font-16 t-gray">One make creepeth, man bearing theira <br> firmament won't
+                                    great heaven</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cource section  -->
+
+    <section class="cource padding-80">
+        <div class="container">
+            <div class="common-heading text-center">
+                <h1 class="t-blue font-36 rubik fw-semibold">Our Popular Courses</h1>
+                <p class="roboto font-16 t-gray">Replenish man have thing gathering lights yielding shall you</p>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper mt-5">
+                    <div class="swiper-slide">
+                        <div class="cource-box">
+                            <div class="cource-img">
+                                <img class="img-fluid w-100" src="img/c1.jpg.webp" alt="">
+                            </div>
+                            <div class="cource-content p-3">
+                                <button class="btn-3 blue text-white mt-4">DETAILS</button>
+                                <h3 class="font-20 rubik mt-4 t-blue">Computer Engineering</h3>
+                                <p class="font-16 roboto t-gray ">One make creepeth man bearing their one firmament
+                                    won't fowl
+                                    meat over sea</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="hstack">
+                                        <div class="c-img">
+                                            <img src="img/author1.png.webp" alt="">
+                                        </div>
+                                        <h4 class="font-16 roboto m-3">Cameron</h4>
+                                    </div>
+                                    <div class="hstack">
+                                        <i class="fa-regular fa-user t-gray"></i><span class="ms-2">25</span>
+                                        <i class="fa-regular fa-heart ms-2 t-gray"></i><span class="ms-2">35</span>
+                                    </div>
+                                </div>
+                                <div class="prize-box rounded-circle yellow">
+                                    <span class="font-20 rubik t-blue fw-semibold">$25</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cource-box">
+                            <div class="cource-img">
+                                <img class="img-fluid w-100" src="img/c2.jpg.webp" alt="">
+                            </div>
+                            <div class="cource-content p-3">
+                                <button class="btn-3 blue text-white mt-4">DETAILS</button>
+                                <h3 class="font-20 rubik mt-4 t-blue">Computer Engineering</h3>
+                                <p class="font-16 roboto t-gray ">One make creepeth man bearing their one firmament
+                                    won't fowl
+                                    meat over sea</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="hstack">
+                                        <div class="c-img">
+                                            <img src="img/author2.png.webp" alt="">
+                                        </div>
+                                        <h4 class="font-16 roboto m-3">Cameron</h4>
+                                    </div>
+                                    <div class="hstack">
+                                        <i class="fa-regular fa-user t-gray"></i><span class="ms-2">25</span>
+                                        <i class="fa-regular fa-heart ms-2 t-gray"></i><span class="ms-2">35</span>
+                                    </div>
+                                </div>
+                                <div class="prize-box rounded-circle yellow">
+                                    <span class="font-20 rubik t-blue fw-semibold">$25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cource-box">
+                            <div class="cource-img">
+                                <img class="img-fluid w-100" src="img/c3.jpg.webp" alt="">
+                            </div>
+                            <div class="cource-content p-3">
+                                <button class="btn-3 blue text-white mt-4">DETAILS</button>
+                                <h3 class="font-20 rubik mt-4 t-blue">Computer Engineering</h3>
+                                <p class="font-16 roboto t-gray ">One make creepeth man bearing their one firmament
+                                    won't fowl
+                                    meat over sea</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="hstack">
+                                        <div class="c-img">
+                                            <img src="img/author3.png.webp" alt="">
+                                        </div>
+                                        <h4 class="font-16 roboto m-3">Cameron</h4>
+                                    </div>
+                                    <div class="hstack">
+                                        <i class="fa-regular fa-user t-gray"></i><span class="ms-2">25</span>
+                                        <i class="fa-regular fa-heart ms-2 t-gray"></i><span class="ms-2">35</span>
+                                    </div>
+                                </div>
+                                <div class="prize-box rounded-circle yellow">
+                                    <span class="font-20 rubik t-blue fw-semibold">$25</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cource-box">
+                            <div class="cource-img">
+                                <img class="img-fluid w-100" src="img/c1.jpg.webp" alt="">
+                            </div>
+                            <div class="cource-content p-3">
+                                <button class="btn-3 blue text-white mt-4">DETAILS</button>
+                                <h3 class="font-20 rubik mt-4 t-blue">Computer Engineering</h3>
+                                <p class="font-16 roboto t-gray ">One make creepeth man bearing their one firmament
+                                    won't fowl
+                                    meat over sea</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="hstack">
+                                        <div class="c-img">
+                                            <img src="img/author1.png.webp" alt="">
+                                        </div>
+                                        <h4 class="font-16 roboto m-3">Cameron</h4>
+                                    </div>
+                                    <div class="hstack">
+                                        <i class="fa-regular fa-user t-gray"></i><span class="ms-2">25</span>
+                                        <i class="fa-regular fa-heart ms-2 t-gray"></i><span class="ms-2">35</span>
+                                    </div>
+                                </div>
+                                <div class="prize-box rounded-circle yellow">
+                                    <span class="font-20 rubik t-blue fw-semibold">$25</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cource-box">
+                            <div class="cource-img">
+                                <img class="img-fluid w-100" src="img/c2.jpg.webp" alt="">
+                            </div>
+                            <div class="cource-content p-3">
+                                <button class="btn-3 blue text-white mt-4">DETAILS</button>
+                                <h3 class="font-20 rubik mt-4 t-blue">Computer Engineering</h3>
+                                <p class="font-16 roboto t-gray ">One make creepeth man bearing their one firmament
+                                    won't fowl
+                                    meat over sea</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="hstack">
+                                        <div class="c-img">
+                                            <img src="img/author2.png.webp" alt="">
+                                        </div>
+                                        <h4 class="font-16 roboto m-3">Cameron</h4>
+                                    </div>
+                                    <div class="hstack">
+                                        <i class="fa-regular fa-user t-gray"></i><span class="ms-2">25</span>
+                                        <i class="fa-regular fa-heart ms-2 t-gray"></i><span class="ms-2">35</span>
+                                    </div>
+                                </div>
+                                <div class="prize-box rounded-circle yellow">
+                                    <span class="font-20 rubik t-blue fw-semibold">$25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cource-box">
+                            <div class="cource-img">
+                                <img class="img-fluid w-100" src="img/c3.jpg.webp" alt="">
+                            </div>
+                            <div class="cource-content p-3">
+                                <button class="btn-3 blue text-white mt-4">DETAILS</button>
+                                <h3 class="font-20 rubik mt-4 t-blue">Computer Engineering</h3>
+                                <p class="font-16 roboto t-gray ">One make creepeth man bearing their one firmament
+                                    won't fowl
+                                    meat over sea</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="hstack">
+                                        <div class="c-img">
+                                            <img src="img/author3.png.webp" alt="">
+                                        </div>
+                                        <h4 class="font-16 roboto m-3">Cameron</h4>
+                                    </div>
+                                    <div class="hstack">
+                                        <i class="fa-regular fa-user t-gray"></i><span class="ms-2">25</span>
+                                        <i class="fa-regular fa-heart ms-2 t-gray"></i><span class="ms-2">35</span>
+                                    </div>
+                                </div>
+                                <div class="prize-box rounded-circle yellow">
+                                    <span class="font-20 rubik t-blue fw-semibold">$25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cource-box">
+                            <div class="cource-img">
+                                <img class="img-fluid w-100" src="img/c1.jpg.webp" alt="">
+                            </div>
+                            <div class="cource-content p-3">
+                                <button class="btn-3 blue text-white mt-4">DETAILS</button>
+                                <h3 class="font-20 rubik mt-4 t-blue">Computer Engineering</h3>
+                                <p class="font-16 roboto t-gray ">One make creepeth man bearing their one firmament
+                                    won't fowl
+                                    meat over sea</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="hstack">
+                                        <div class="c-img">
+                                            <img src="img/author1.png.webp" alt="">
+                                        </div>
+                                        <h4 class="font-16 roboto m-3">Cameron</h4>
+                                    </div>
+                                    <div class="hstack">
+                                        <i class="fa-regular fa-user t-gray"></i><span class="ms-2">25</span>
+                                        <i class="fa-regular fa-heart ms-2 t-gray"></i><span class="ms-2">35</span>
+                                    </div>
+                                </div>
+                                <d iv class="prize-box rounded-circle yellow">
+                                    <span class="font-20 rubik t-blue fw-semibold">$25</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cource-box">
+                            <div class="cource-img">
+                                <img class="img-fluid w-100" src="img/c2.jpg.webp" alt="">
+                            </div>
+                            <div class="cource-content p-3">
+                                <button class="btn-3 blue text-white mt-4">DETAILS</button>
+                                <h3 class="font-20 rubik mt-4 t-blue">Computer Engineering</h3>
+                                <p class="font-16 roboto t-gray ">One make creepeth man bearing their one firmament
+                                    won't fowl
+                                    meat over sea</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="hstack">
+                                        <div class="c-img">
+                                            <img src="img/author2.png.webp" alt="">
+                                        </div>
+                                        <h4 class="font-16 roboto m-3">Cameron</h4>
+                                    </div>
+                                    <div class="hstack">
+                                        <i class="fa-regular fa-user t-gray"></i><span class="ms-2">25</span>
+                                        <i class="fa-regular fa-heart ms-2 t-gray"></i><span class="ms-2">35</span>
+                                    </div>
+                                </div>
+                                <div class="prize-box rounded-circle yellow">
+                                    <span class="font-20 rubik t-blue fw-semibold">$25</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- coyrce-ragister section  -->
+
+    <section class="ragister padding-80">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div class="ragister-content">
+                        <h1 class="text-white rubik font-42">Register Now</h1>
+                        <p class="text-white roboto font-16 fw-light mt-2">There is a moment in the life of any aspiring
+                            astronomer that it is time to buy that first <br> telescope. It’s exciting to think about
+                            setting up your own viewing station.
+                        </p>
+                        <div class="row">
+                            <div class="col-6 col-sm-3 mt-4">
+                                <div class="number-box d-flex flex-wrap align-items-center justify-content-center">
+                                    <h1 class="text-white font-1 me-3">150</h1>
+                                    <span class="text-white font-16 me-3 ">Days</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 mt-4">
+                                <div class="number-box d-flex flex-wrap align-items-center justify-content-center">
+                                    <h1 class="text-white font-1 me-2">230</h1>
+                                    <span class="text-white font2 me-2">Hours</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 mt-4">
+                                <div class="number-box d-flex flex-wrap align-items-center justify-content-center">
+                                    <h1 class="text-white font-1 me-3">47</h1>
+                                    <span class="text-white font2 me-1">Minutes</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 mt-4">
+                                <div class="number-box d-flex flex-wrap align-items-center justify-content-center">
+                                    <h1 class="text-white font-1 me-2">59</h1>
+                                    <span class="text-white font2 me-2">Seconds</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="ragister-box text-center p-4 mt-sm-5">
+                        <div class="r-content">
+                            <h2 class="t-blue rubik font-24">Courses for Free</h2>
+                            <p class="t-gray roboto font-16 fw-light">It is high time for learning</p>
+                        </div>
+                        <div class="">
+                            <input class=" w-100 border-0 border-bottom p-3 d-block mx-auto fw-semibold" type="text"
+                                placeholder="Your Phone Number">
+                            <input class=" w-100 border-0 border-bottom p-3 d-block mx-auto fw-semibold" type="text"
+                                placeholder="Your Name">
+                            <input class=" w-100 border-0 border-bottom p-3 d-block mx-auto fw-semibold" type="email"
+                                placeholder="Your Email Address">
+                            <button class="btn-4 w-100 text-center fw-bold">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- exepert section  -->
+
+    <section class="expert padding-80">
+        <div class="container">
+            <div class="common-heading text-center">
+                <h1 class="t-blue font-36 rubik fw-semibold">Our Expert Trainers</h1>
+                <p class="roboto font-16 t-gray">Replenish man have thing gathering lights yielding shall you</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="expert-box text-center mt-md-4 mt-lg-4">
+                        <div class="expert-img">
+                            <img class="img-fluid w-100" src="img/t1.jpg.webp" alt="">
+                        </div>
+                        <div class="expert-content mt-3">
+                            <h3 class="font-20 rubik t-blue">Mated Nithan</h3>
+                            <h4 class="font-14 roboto t-gray fw-normal">Sr. web designer</h4>
+                            <p class="font-16 roboto fw-normal t-gray pt-3">If you are looking at blank <br> cassettes
+                                on the web, you <br> may be very confused at the.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center pb-3">
+                            <i class="fa-brands fa-facebook-f t-gray"></i>
+                            <i class="fa-brands fa-twitter ms-3 t-gray"></i>
+                            <i class="fa-brands fa-linkedin-in ms-3 t-gray"></i>
+                            <i class="fa-brands fa-pinterest-p ms-3 t-gray"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="expert-box text-center mt-md-4 mt-lg-4 mt-sm-4">
+                        <div class="expert-img">
+                            <img class="img-fluid w-100" src="img/t2.jpg.webp" alt="">
+                        </div>
+                        <div class="expert-content mt-3">
+                            <h3 class="font-20 rubik t-blue">David Cameron</h3>
+                            <h4 class="font-14 roboto t-gray fw-normal">Sr. web designer</h4>
+                            <p class="font-16 roboto fw-normal t-gray pt-3">If you are looking at blank <br> cassettes
+                                on the web, you <br> may be very confused at the.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center pb-3">
+                            <i class="fa-brands fa-facebook-f t-gray"></i>
+                            <i class="fa-brands fa-twitter ms-3 t-gray"></i>
+                            <i class="fa-brands fa-linkedin-in ms-3 t-gray"></i>
+                            <i class="fa-brands fa-pinterest-p ms-3 t-gray"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="expert-box text-center mt-md-4 mt-sm-4">
+                        <div class="expert-img">
+                            <img class="img-fluid w-100" src="img/t3.jpg.webp" alt="">
+                        </div>
+                        <div class="expert-content mt-3">
+                            <h3 class="font-20 rubik t-blue">Jain Redmel</h3>
+                            <h4 class="font-14 roboto t-gray fw-normal">Sr. web designer</h4>
+                            <p class="font-16 roboto fw-normal t-gray pt-3">If you are looking at blank <br> cassettes
+                                on the web, you <br> may be very confused at the.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center pb-3">
+                            <i class="fa-brands fa-facebook-f t-gray"></i>
+                            <i class="fa-brands fa-twitter ms-3 t-gray"></i>
+                            <i class="fa-brands fa-linkedin-in ms-3 t-gray"></i>
+                            <i class="fa-brands fa-pinterest-p ms-3 t-gray"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="expert-box text-center mt-md-4 mt-sm-4">
+                        <div class="expert-img">
+                            <img class="img-fluid w-100" src="img/t4.jpg.webp" alt="">
+                        </div>
+                        <div class="expert-content mt-3">
+                            <h3 class="font-20 rubik t-blue">Nathan Macken</h3>
+                            <h4 class="font-14 roboto t-gray fw-normal">Sr. web designer</h4>
+                            <p class="font-16 roboto fw-normal t-gray pt-3">If you are looking at blank <br> cassettes
+                                on the web, you <br> may be very confused at the.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center pb-3">
+                            <i class="fa-brands fa-facebook-f t-gray"></i>
+                            <i class="fa-brands fa-twitter ms-3 t-gray"></i>
+                            <i class="fa-brands fa-linkedin-in ms-3 t-gray"></i>
+                            <i class="fa-brands fa-pinterest-p ms-3 t-gray"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- event section  -->
+
+    <section class="event padding-80">
+        <div class="container">
+            <div class="common-heading text-center">
+                <h1 class="text-white font-36 rubik fw-semibold">Upcoming Events</h1>
+                <p class="roboto font-16 t-gray">Replenish man have thing gathering lights yielding shall you</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6">
+                    <div class="event-img1">
+                       <div class="event-img-s">
+                        <img class="img-fluid w-100" src="img/e1.jpg.webp" alt="">
+                       </div>
+                        <div class="event-box1 text-left p-3">
+                            <div class="d-flex align-items-center">
+                                <div class="date border-end pe-3 ms-3">
+                                    <h1 class="t-yellow font-30">15</h1>
+                                    <p class="text-white rubik">Jun</p>
+                                </div>
+                                <div class="main-time ms-3">
+                                    <div class="time-1">
+                                        <div class="hstack">
+                                            <i class="fa-regular fa-clock text-white font-14"></i>
+                                            <p class="text-white fw-normal m-0 ms-2 font-14 roboto"> 12:00 AM - 12:30 AM</p>
+                                        </div>
+                                    </div>
+                                    <div class="time-2">
+                                        <div class="hstack">
+                                            <i class="fa-solid fa-location-dot text-white font-14"></i>
+                                            <p class="text-white fw-normal m-0 ms-3 font-14 roboto">  Hilton Quebec</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event-p ms-3">
+                                <p class="text-white font-16">One make creepeth man for so <br> bearing their firmament won't <br> fowl meat over seas great</p>
+                            </div>
+                            <button class="btn-2 ms-3 fw-semibold">SEE COURCE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="eimg-box">
+                        <div class="event-img2">
+                            <div class="event-img-s">
+                                <img class="img-fluid w-100" src="img/e2.jpg.webp" alt="">
+                            </div>
+                            <div class="event-box1 text-left p-3">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="date border-end pe-3 ms-3">
+                                        <h1 class="t-yellow font-30">15</h1>
+                                        <p class="text-white rubik">Jun</p>
+                                    </div>
+                                    <div class="main-time ms-3">
+                                        <div class="time-1">
+                                            <div class="hstack">
+                                                <i class="fa-regular fa-clock text-white font-14"></i>
+                                                <p class="text-white fw-normal m-0 ms-2 font-14 roboto"> 12:00 AM - 12:30 AM</p>
+                                            </div>
+                                        </div>
+                                        <div class="time-2">
+                                            <div class="hstack">
+                                                <i class="fa-solid fa-location-dot text-white font-1"></i>
+                                                <p class="text-white fw-normal m-0 ms-3 font-14 roboto">  Hilton Quebec</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event-p ms-3">
+                                    <p class="text-white">One make creepeth man for so <br> bearing their firmament won't <br> fowl meat over seas great</p>
+                                </div>
+                                <button class="btn-2 ms-3 fw-semibold">SEE COURCE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- client section  -->
+
+    <section class="client padding-80">
+        <div class="container">
+            <div class="common-heading text-center">
+                <h1 class="t-blue font-36 rubik fw-semibold">Client say about me</h1>
+                <p class="roboto font-16 t-gray">Replenish man have thing gathering lights yielding shall you</p>
+            </div>
+            <div class="swiper clientSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide mt-5">
+                    <div class="client-box p-5">
+                        <div class="d-flex wrap align-items-center">
+                            <div class="client-img">
+                                <img src="img/t1.jpg (1).webp" alt="">
+                            </div>
+                            <div class="client-content ms-3">
+                                <h3 class="t-blue font-20 rubik">Elite Martin</h3>
+                                <p class="font-16 t-gray roboto m-0 w-100">Him, made can't called over won't there on divide there
+                                male fish beast own his day third seed sixth seas unto.
+                                Saw from</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide mt-5">
+                    <div class="client-box p-5">
+                        <div class="d-flex wrap align-items-center">
+                            <div class="client-img">
+                                <img src="img/t2.jpg (1).webp" alt="">
+                            </div>
+                            <div class="client-content ms-3">
+                                <h3 class="t-blue font-20 rubik">Elite Martin</h3>
+                                <p class="font-16 t-gray roboto m-0 w-100">Him, made can't called over won't there on divide there
+                                male fish beast own his day third seed sixth seas unto.
+                                Saw from</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide mt-5">
+                    <div class="client-box p-5">
+                        <div class="d-flex wrap align-items-center">
+                            <div class="client-img">
+                                <img src="img/t1.jpg (1).webp" alt="">
+                            </div>
+                            <div class="client-content ms-3">
+                                <h3 class="t-blue font-20 rubik">Elite Martin</h3>
+                                <p class="font-16 t-gray roboto m-0 w-100">Him, made can't called over won't there on divide there
+                                male fish beast own his day third seed sixth seas unto.
+                                Saw from</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide mt-5">
+                    <div class="client-box p-5">
+                        <div class="d-flex wrap align-items-center">
+                            <div class="client-img">
+                                <img src="img/t2.jpg (1).webp" alt="">
+                            </div>
+                            <div class="client-content ms-3">
+                                <h3 class="t-blue font-20 rubik">Elite Martin</h3>
+                                <p class="font-16 t-gray roboto m-0 w-100">Him, made can't called over won't there on divide there
+                                male fish beast own his day third seed sixth seas unto.
+                                Saw from</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide mt-5">
+                    <div class="client-box p-5">
+                        <div class="d-flex wrap align-items-center">
+                            <div class="client-img">
+                                <img src="img/t1.jpg (1).webp" alt="">
+                            </div>
+                            <div class="client-content ms-3">
+                                <h3 class="t-blue font-20 rubik">Elite Martin</h3>
+                                <p class="font-16 t-gray roboto m-0 w-100">Him, made can't called over won't there on divide there
+                                male fish beast own his day third seed sixth seas unto.
+                                Saw from</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide mt-5">
+                    <div class="client-box p-5">
+                        <div class="d-flex wrap align-items-center">
+                            <div class="client-img">
+                                <img src="img/t2.jpg (1).webp" alt="">
+                            </div>
+                            <div class="client-content ms-3">
+                                <h3 class="t-blue font-20 rubik">Elite Martin</h3>
+                                <p class="font-16 t-gray roboto m-0 w-100">Him, made can't called over won't there on divide there
+                                male fish beast own his day third seed sixth seas unto.
+                                Saw from</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+
+    <footer class="footer padding-80 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Top Products</h2>
+                    </div>
+                    <ul class="p-0">
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Managed Website</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Manage Reputation</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Power Tools</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Marketing Service</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Quick Links</h2>
+                    </div>
+                    <ul class="p-0">
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Managed Website</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Manage Reputation</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Power Tools</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Marketing Service</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Features</h2>
+                    </div>
+                    <ul class="p-0">
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Managed Website</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Manage Reputation</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Power Tools</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Marketing Service</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Resources</h2>
+                    </div>
+                    <ul class="p-0">
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Managed Website</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Manage Reputation</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Power Tools</li>
+                        <li class="t-gray font-16 roboto list-unstyled m-0 pb-3 roboto">Marketing Service</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="f-title pb-3">
+                        <h2 class="text-white fw-semibold font-18 rubik">Newsletter</h2>
+                    </div>
+                    <p class="t-gray font-14">You can trust us. we only send promo offers,</p>
+                    <div class="input-box">
+                        <input class="ps-2" type="text" placeholder="Your Email Address">
+                        <button class="f-button fw-semibold font-14">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between pt-5 flex-wrap w-100">
+                <h4 class="font-16 roboto text-white fw-light">Copyright ©2023 All rights reserved | This template is made with  by Colorlib</h4>
+                <div class="hstack">
+                    <div class="f-icon-box text-center ms-1">
+                        <a href="#" class=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="f-icon-box text-center ms-1">
+                        <a href="#" class=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="f-icon-box text-center ms-1">
+                        <a href="#" class=""><i class="fa-brands fa-dribbble"></i></a>
+                    </div>
+                    <div class="f-icon-box text-center ms-1">
+                        <a href="#" class=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquerymin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+
+    <script>
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 200) { 
+                $("header").addClass("bg-white position-fixed top-0 w-100 shadow")
+            }
+            else {
+                $("header").removeClass("bg-white shadow top-0 position-fixed")
+            }
+        }) ;
+    </script>
+    <script>
+     $(window).load(function () {
+            $(".l-box").fadeOut(2500);
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                },
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                },
+                840: {
+                    slidesPerView: 2,
+                    spaceBetween: 70,
+                },
+                1000: {
+                    slidesPerView: 3,
+                    spaceBetween: 60,
+                }
+            }
+        });
+    </script>
+
+    <script>
+    var swiper = new Swiper(".clientSwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      autoplay: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                },
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                },
+                840: {
+                    slidesPerView: 1,
+                    spaceBetween: 70,
+                },
+                1000: {
+                    slidesPerView: 2,
+                    spaceBetween: 60,
+                }
+            }
+    });
+    </script>
+
+    
+
+</body>
+
+</html>
